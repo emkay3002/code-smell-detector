@@ -1,48 +1,48 @@
 Type,File,Line,Description,Severity,Suggestion
-Long Method,smelly_code\calculator.py,227,Method 'process_payment' has 21 lines (max: 20),high,"Consider breaking this method into smaller, more focused methods."
-Long Method,smelly_code\calculator.py,318,Method 'main' has 39 lines (max: 20),high,"Consider breaking this method into smaller, more focused methods."
-Long Method,smelly_code\calculator.py,77,Method 'process_large_dataset' has 80 lines (max: 20),high,"Consider breaking this method into smaller, more focused methods."
-God Class,smelly_code\calculator.py,12,"Class 'Calculator' has 14 methods and 0 attributes (max: 10 methods, 15 attributes)",high,"Consider splitting this class into smaller, more focused classes."
-Duplicated Code,smelly_code\calculator.py,266,Code block starting at line 266 appears 2 times,medium,Extract this code into a separate function to avoid duplication.
-Large Parameter List,smelly_code\calculator.py,69,Method 'calculate_complex_expression' has 21 parameters (max: 5),medium,Consider using a parameter object or data class to group related parameters.
-Magic Number,smelly_code\calculator.py,230,Magic number 0.03 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,280,Magic number 15 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,332,Magic number 3 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,332,Magic number 4 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,332,Magic number 5 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,332,Magic number 6 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,332,Magic number 7 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,332,Magic number 8 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,332,Magic number 9 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,333,Magic number 11 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,333,Magic number 12 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,333,Magic number 13 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,333,Magic number 14 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,333,Magic number 15 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,333,Magic number 16 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,333,Magic number 17 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,333,Magic number 18 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,333,Magic number 19 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,333,Magic number 20 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,342,Magic number 75000 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,342,Magic number 0.15 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,346,Magic number 500 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,72,Magic number 20 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,219,Magic number 50000 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,234,Magic number 0.85 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,236,Magic number 0.5 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,240,Magic number 0.02 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,220,Magic number 0.01 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,221,Magic number 100000 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,337,Magic number 101 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,222,Magic number 0.15 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,224,Magic number 0.25 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,324,Magic number 3 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,325,Magic number 4 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,326,Magic number 5 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,326,Magic number 6 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,327,Magic number 15 found,low,Replace with a named constant to improve readability.
+Long Method,smelly_code\calculator.py,222,Method 'process_payment' has 21 lines (max: 20),high,"Consider breaking this method into smaller, more focused methods."
+Long Method,smelly_code\calculator.py,313,Method 'main' has 39 lines (max: 20),high,"Consider breaking this method into smaller, more focused methods."
+Long Method,smelly_code\calculator.py,72,Method 'process_large_dataset' has 80 lines (max: 20),high,"Consider breaking this method into smaller, more focused methods."
+God Class,smelly_code\calculator.py,7,"Class 'Calculator' has 14 methods and 0 attributes (max: 10 methods, 15 attributes)",high,"Consider splitting this class into smaller, more focused classes."
+Duplicated Code,smelly_code\calculator.py,261,Code block starting at line 261 appears 2 times,medium,Extract this code into a separate function to avoid duplication.
+Large Parameter List,smelly_code\calculator.py,64,Method 'calculate_complex_expression' has 21 parameters (max: 5),medium,Consider using a parameter object or data class to group related parameters.
+Magic Number,smelly_code\calculator.py,225,Magic number 0.03 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,275,Magic number 15 found,low,Replace with a named constant to improve readability.
 Magic Number,smelly_code\calculator.py,327,Magic number 3 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,328,Magic number 3 found,low,Replace with a named constant to improve readability.
-Magic Number,smelly_code\calculator.py,329,Magic number 16 found,low,Replace with a named constant to improve readability.
-Feature Envy,smelly_code\calculator.py,318,Method 'main' makes 9 external calls (max: 3),medium,Consider moving this method to the class it's most interested in.
+Magic Number,smelly_code\calculator.py,327,Magic number 4 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,327,Magic number 5 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,327,Magic number 6 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,327,Magic number 7 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,327,Magic number 8 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,327,Magic number 9 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,328,Magic number 11 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,328,Magic number 12 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,328,Magic number 13 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,328,Magic number 14 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,328,Magic number 15 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,328,Magic number 16 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,328,Magic number 17 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,328,Magic number 18 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,328,Magic number 19 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,328,Magic number 20 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,337,Magic number 75000 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,337,Magic number 0.15 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,341,Magic number 500 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,67,Magic number 20 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,214,Magic number 50000 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,229,Magic number 0.85 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,231,Magic number 0.5 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,235,Magic number 0.02 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,215,Magic number 0.01 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,216,Magic number 100000 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,332,Magic number 101 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,217,Magic number 0.15 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,219,Magic number 0.25 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,319,Magic number 3 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,320,Magic number 4 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,321,Magic number 5 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,321,Magic number 6 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,322,Magic number 15 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,322,Magic number 3 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,323,Magic number 3 found,low,Replace with a named constant to improve readability.
+Magic Number,smelly_code\calculator.py,324,Magic number 16 found,low,Replace with a named constant to improve readability.
+Feature Envy,smelly_code\calculator.py,313,Method 'main' makes 9 external calls (max: 3),medium,Consider moving this method to the class it's most interested in.

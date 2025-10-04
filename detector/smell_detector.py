@@ -1,8 +1,3 @@
-"""
-Code smell detector using AST analysis.
-Detects various code smells in Python source code.
-"""
-
 import ast
 import re
 import yaml

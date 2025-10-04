@@ -1,0 +1,2 @@
+Type,File,Line,Description,Severity,Suggestion
+God Class,smelly_code\calculator.py,7,"Class 'Calculator' has 14 methods and 0 attributes (max: 10 methods, 15 attributes)",high,"Consider splitting this class into smaller, more focused classes."
