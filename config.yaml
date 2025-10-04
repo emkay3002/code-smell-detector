@@ -1,0 +1,39 @@
+# Code Smell Detector Configuration
+# This file configures which code smells to detect and their parameters
+
+# Long Method Detection
+long_method:
+  enabled: true
+  max_lines: 20
+  severity: high
+
+# God Class Detection
+god_class:
+  enabled: true
+  max_methods: 10
+  max_attributes: 15
+  severity: high
+
+# Duplicated Code Detection
+duplicated_code:
+  enabled: true
+  min_similarity: 0.8
+  min_lines: 5
+  severity: medium
+
+# Large Parameter List Detection
+large_parameter_list:
+  enabled: true
+  max_parameters: 5
+  severity: medium
+
+# Magic Numbers Detection
+magic_numbers:
+  enabled: true
+  severity: low
+
+# Feature Envy Detection
+feature_envy:
+  enabled: true
+  max_external_calls: 3
+  severity: medium
