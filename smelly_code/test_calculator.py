@@ -1,8 +1,3 @@
-"""
-Unit tests for the calculator application.
-Tests the functionality while the code contains intentional code smells.
-"""
-
 import unittest
 import tempfile
 import os

@@ -1,8 +1,3 @@
-"""
-A calculator application with intentional code smells for educational purposes.
-This module demonstrates various code smells while maintaining functionality.
-"""
-
 import math
 import os
 import sys
